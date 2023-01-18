@@ -146,11 +146,11 @@ public class Tests {
         deck.addCard(new Ace());
         
         assertEquals("[Croupier wins]", BlackJack.getWinners(
-                player1.getCards(), 
-                player2.getCards(), 
-                player3.getCards(), 
-                croupier.getCards(), 
-                deck.getCards()).toString());
+            player1.getCards(), 
+            player2.getCards(), 
+            player3.getCards(), 
+            croupier.getCards(), 
+            deck.getCards()).toString());
     }
     
 
@@ -181,11 +181,11 @@ public class Tests {
         deck.addCard(new Ace());
         
         assertEquals("[Croupier wins]", BlackJack.getWinners(
-                player1.getCards(), 
-                player2.getCards(), 
-                player3.getCards(), 
-                croupier.getCards(), 
-                deck.getCards()).toString());   
+            player1.getCards(), 
+            player2.getCards(), 
+            player3.getCards(), 
+            croupier.getCards(), 
+            deck.getCards()).toString());   
     }
     
     @Test
